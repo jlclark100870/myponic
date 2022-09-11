@@ -13,7 +13,7 @@ while True:
         try:
             logging.info(now)
             logging.info('start myponic')
-            subprocess.call(["python3", "/home/pi/Desktop/myponic/port.py"])
+            subprocess.call(["python3", "/home/pi/Desktop/myponic-main/port.py"])
             print("reset")
         except Exception as e:
             print(e)
